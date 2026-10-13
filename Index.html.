@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Casa da Dirce: hospedagem acolhedora na região central de Amparo, SP. Consulte disponibilidade pelo WhatsApp.">
+  <title>Casa da Dirce | Hospedagem em Amparo-SP</title>
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #39332e;
+      background: #fffaf4;
+      line-height: 1.6;
+    }
+    header {
+      background: #684735;
+      color: white;
+      text-align: center;
+      padding: 28px 16px;
+    }
+    header h1 { margin: 0; font-size: 34px; }
+    header p { margin: 5px 0 0; }
+    nav {
+      background: #f0dfce;
+      padding: 12px;
+      text-align: center;
+    }
+    nav a {
+      display: inline-block;
+      color: #503526;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 5px 10px;
+    }
+    .hero {
+      text-align: center;
+      padding: 55px 20px;
+      background: #ead8c5;
+    }
+    .hero h2 { font-size: 30px; margin: 0 0 12px; }
+    .container { max-width: 900px; margin: auto; padding: 30px 18px; }
+    h2 { color: #684735; }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 22px;
+      margin: 18px 0;
+      box-shadow: 0 2px 10px #0000000d;
+    }
+    .photos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+    }
+    .photo-placeholder {
+      min-height: 150px;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 18px;
+      background: #f0dfce;
+      border-radius: 10px;
+      color: #684735;
+    }
+    .button {
+      display: inline-block;
+      background: #218c53;
+      color: white;
+      padding: 13px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    footer {
+      text-align: center;
+      background: #684735;
+      color: white;
+      padding: 24px 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Casa da Dirce</h1>
+    <p>Hospedagem acolhedora em Amparo - SP</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#quartos">Quartos</a>
+    <a href="#localizacao">Localização</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section class="hero" id="inicio">
+    <h2>Sinta-se em casa!</h2>
+    <p>Um lugar acolhedor para sua estadia em Amparo, no interior de São Paulo.</p>
+    <a class="button" href="https://wa.me/5519994136787?text=Olá!%20Gostaria%20de%20consultar%20a%20disponibilidade%20na%20Casa%20da%20Dirce." target="_blank" rel="noopener">
+      Consultar disponibilidade
+    </a>
+  </section>
+
+  <main class="container">
+    <section id="quartos">
+      <h2>Nossos quartos</h2>
+      <p>Conforto e acolhimento para você descansar durante sua visita a Amparo.</p>
+      <div class="photos">
+        <div class="photo-placeholder">
+          <div><strong>Quarto</strong><br>Adicionaremos aqui suas fotos reais.</div>
+        </div>
+        <div class="photo-placeholder">
+          <div><strong>Acomodações</strong><br>Em breve, mais fotos dos ambientes.</div>
+        </div>
+        <div class="photo-placeholder">
+          <div><strong>Banheiro</strong><br>Adicionaremos fotos do banheiro.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Sobre a hospedagem</h2>
+      <p>A Casa da Dirce recebe você com simplicidade e hospitalidade na região central de Amparo-SP.</p>
+      <p>Entre em contato para consultar valores, disponibilidade e detalhes da estadia.</p>
+    </section>
+
+    <section id="localizacao" class="card">
+      <h2>Localização</h2>
+      <p>Região central de Amparo - São Paulo.</p>
+      <p>Entre em contato para confirmar o endereço e receber orientações para chegar.</p>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&query=Centro+de+Amparo+SP" target="_blank" rel="noopener">
+        Ver região no mapa
+      </a>
+    </section>
+
+    <section id="contato" class="card">
+      <h2>Faça sua reserva</h2>
+      <p>Fale diretamente com a Casa da Dirce pelo WhatsApp para consultar disponibilidade.</p>
+      <a class="button" href="https://wa.me/5519994136787?text=Olá!%20Quero%20informações%20sobre%20hospedagem." target="_blank" rel="noopener">
+        Reservar pelo WhatsApp
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Casa da Dirce</strong></p>
+    <p>Amparo - SP | Esperamos sua visita!</p>
+  </footer>
+</body>
+</html>
